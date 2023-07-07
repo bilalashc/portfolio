@@ -2462,6 +2462,7 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
+				font-size: 80px;
 			}
 
 			.icon.alt:before {
@@ -3523,6 +3524,7 @@ input, select, textarea {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
+					height: 100%;
 				}
 
 	body.is-touch #banner {
@@ -4113,3 +4115,8 @@ input, select, textarea {
 .portimages {
 		width: 30%;
 	}
+
+#contact-icons {
+	display: inline-flex;
+	gap: 23px;
+}
